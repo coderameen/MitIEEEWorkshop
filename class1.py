@@ -18,3 +18,8 @@ while True:
         break
 cv2.destroyAllWindows()
 
+
+#MIT MODIFICATRION
+# def add():
+#     return 10 + 20
+    
