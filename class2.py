@@ -8,3 +8,5 @@ cv2.imshow("this is cat gray image",gray_img)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+#hello I am pushong the some changes
