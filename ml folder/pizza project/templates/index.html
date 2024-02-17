@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is Pizza Prediction</h1>
+    <form action="{{ url_for('predict') }}" method="post">
+    <input type="text" placeholder="Enter the Age" name="age">
+    <br>
+   <br>
+   <input type="text" placeholder="Enter the Weight" name="weight">
+   <br>
+   <br>
+   <input type="submit" value="predict">
+   {{pred}}
+    </form>
+</body>
+</html>
